@@ -1,19 +1,10 @@
-body {
-  font-family: 'Libre Franklin', monospace;
-  line-height: 1.2em;
-  letter-spacing: 0.03em;
-  font-size:15px;
-  background-color: rgb(216,212,215);
-  background: linear-gradient(to bottom, rgb(216,212,215), #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align:center;
-}
+@import url("layout/layout.css");
+@import url("layout/sidebar.css");
+@import url("components/avatar.css");
+@import url("components/tabs.css");
+@import url("components/profile_header.css");
+@import url("components/list.css");
 
-.container {
-  width: 75%;
-  min-width: 300px;
-  margin: 0 auto;
-
-}
 
 .card {
   background-color: #FCFAF4;
@@ -21,13 +12,28 @@ body {
   margin: 30px 0;
   border-radius: 4px;
   box-shadow: 0px 1px 2px rgba(0,0,0,0.2)
+
 }
 
+.card ul {
+  display:flex;
+  justify-content: space-around
+}
+
+
+#social li {
+ /*display: inline-block;*/
+ margin:0 2em;
+ /*padding: 1.5em;*/
+ border-radius: 20%;
+ /*width:20px*/
+}
 
 h1, h2 {
   color: #95190C;
   font-family: 'Montserrat', 'Arial';
-  font-weight: lighter
+  font-weight: lighter;
+  letter-spacing:-0.05em;
 }
 
 h1 {
@@ -51,27 +57,17 @@ h3 {
 
 p {
   text-align: justify;
-  font-size: 15px;
+  font-size: 17px;
 }
 
-a {
+ a {
   text-decoration: none;
   color: #95190C;
 }
 
-a:hover {
+ .content a:hover {
   background-color: #95190C;
   color: #FCFAF4;
-}
-
-
-
-#social li {
- display: inline-block;
- margin:0 50px;
- padding: 1.5em;
- border-radius: 20%;
- /*width:20px*/
 }
 
 .link-hover {
@@ -126,7 +122,7 @@ td {
 }
 
 .cel_summary p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .footer p {
@@ -148,6 +144,11 @@ td h3:hover {
   color: #FCFAF4;
 }
 
+
+
+#content {
+  margin-left:10%;
+}
 
 
 /*

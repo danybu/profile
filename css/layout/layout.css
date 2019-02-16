@@ -1,0 +1,15 @@
+body {
+  font-family: 'Libre Franklin', monospace;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+  font-size:15px;
+  background-color: rgb(216,212,215);
+  background: linear-gradient(to bottom, rgb(216,212,215), #536976);
+  text-align:center;
+}
+
+.container {
+  width: 75%;
+  min-width: 300px;
+  margin: 0 auto;
+}

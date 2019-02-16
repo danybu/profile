@@ -6,80 +6,90 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,500" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="container">
-    <section class="card">
-      <img class="img-circle" src="images/IMG_0788.jpg">
-      <h1>Dany Buts</h1>
-      <h2>Video editor / programmer</h2>
-      <p>
-        In a former life i started out fiddling in a Qbasic and Turbo Pascal world, but after I drifted away into the audiovisual world where i edited mainly documentaries, magazine shows and yes some ads.
-      </p>
-      <p>
-        Now it's time to make the circle round again.  Back to coding! I don't want to get into too dusty offices - <em>been there, done that</em>, so i think in stead of doing Java, I guess web development is where the sparkles are!
-      </p>
-    </section>
+  <div id="sidebar">
+    <div class = "sidebar_nav">
+      <a class="sidelink-round" href="#summary"><img class="img-circle" src="images/profile saturated.jpg"></a>
+      <a href="#social" class="sidelink-normal"><i class="fas fa-envelope"></i></a>
+      <a href="#movies" class="sidelink-normal"><i class="fas fa-film"></i></a>
+    </div>
 
-    <section class="card" id="social">
-      <ul>
-        <li class="link-hover"><a href="mailto:dany.buts@gmail.com"><i class="fas fa-envelope"></i>e-mail
-        </a></li>
-        <li class="link-hover"><a href="https://www.facebook.com/danybuts"><i class="fab fa-facebook-square"></i>facebook</a></li>
-        <li class="link-hover"><a href="https://www.instagram.com/danybubu78/"><i class="fab fa-instagram"></i>instagram</a></li>
-      </ul>
-    </section>
+  </div>
+  <div id="content">
+    <div class="container">
+      <section class="card" id="summary">
+        <img class="img-circle" src="images/IMG_0788.jpg">
+        <h1>Dany Buts</h1>
+        <h2>Video editor / programmer</h2>
+        <p>
+          In a former life i started out fiddling in a Qbasic and Turbo Pascal world, but after I drifted away into the audiovisual world where i edited mainly documentaries, magazine shows and yes some ads.
+        </p>
+        <p>
+          Now it's time to make the circle round again.  Back to coding! I don't want to get into too dusty offices - <em>been there, done that</em>, so i think in stead of doing Java, I guess web development is where the sparkles are!
+        </p>
+      </section>
 
-    <section class="card">
-      <h2>Favourite movies</h2>
-      <table>
-        <tr>
-          <td>
-            <img class="poster" src="images/poster_leaving_las_vegas.jpg">
-          </td>
-          <td class = "cel_summary">
-            <h3><a href="https://www.imdb.com/title/tt0113627/?ref_=fn_al_tt_1" target="_blank">Leaving Las Vegas</a></h3>
-            <p class = "film_summary">
-              Ben Sanderson, a Hollywood screenwriter who lost everything because of his alcoholism, arrives in Las Vegas to drink himself to death. There, he meets and forms an uneasy friendship and non-interference pact with prostitute Sera.
-            </p>
-            <p class="fim_director">Director: Mike Figgis</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img class="poster" src="images/poster_ida.jpg">
-          </td>
-          <td class = "cel_summary">
-            <h3><a href="https://www.imdb.com/title/tt2718492/?ref_=fn_al_tt_1" target="_blank">Ida</a></h3>
-            <p class = "film_summary">
-              Anna, a young novitiate nun in 1960s Poland, is on the verge of taking her vows when she discovers a dark family secret dating back to the years of the German occupation.
-            </p>
-            <p class="fim_director">Director: Pawel Pawlikowski</p>
-          </td>
-        </tr>
-        <tr>
-          <td><img class="poster" src="images/poster_the_idiots.jpg">
-          </td>
-          <td class = "cel_summary">
-            <h3><a href="https://www.imdb.com/title/tt0154421/?ref_=fn_al_tt_1" target="_blank">The idiots</a></h3>
-            <p class = "film_summary">
-              The group of people gather at the house in Copenhagen suburb to break all the limitations and to bring out the "inner idiot" in themselves.
-            </p>
-            <p class="fim_director">Director: Lars Von Trier</p>
-          </td>
-        </tr>
-      </table>
-    </section>
+      <section class="card" id="social">
+        <ul>
+          <li class="link-hover"><a href="mailto:dany.buts@gmail.com"><i class="fas fa-envelope"></i>e-mail
+          </a></li>
+          <li class="link-hover"><a href="https://www.facebook.com/danybuts"><i class="fab fa-facebook-square"></i>facebook</a></li>
+          <li class="link-hover"><a href="https://www.instagram.com/danybubu78/"><i class="fab fa-instagram"></i>instagram</a></li>
+        </ul>
+      </section>
 
-    <section class="card footer">
-      <p>
-        This page has been coded during the FullStack program @LeWagon. That was probably the best experience of my entire life.
-      </p>
-      <p>
-        copyright: nothing of interest here.
-      </p>
-    </section>
+      <section class="card" id="movies">
+        <h2>Favourite movies</h2>
+        <table>
+          <tr>
+            <td>
+              <img class="poster" src="images/poster_leaving_las_vegas.jpg">
+            </td>
+            <td class = "cel_summary">
+              <h3><a href="https://www.imdb.com/title/tt0113627/?ref_=fn_al_tt_1" target="_blank">Leaving Las Vegas</a></h3>
+              <p class = "film_summary">
+                Ben Sanderson, a Hollywood screenwriter who lost everything because of his alcoholism, arrives in Las Vegas to drink himself to death. There, he meets and forms an uneasy friendship and non-interference pact with prostitute Sera.
+              </p>
+              <p class="fim_director">Director: Mike Figgis</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img class="poster" src="images/poster_ida.jpg">
+            </td>
+            <td class = "cel_summary">
+              <h3><a href="https://www.imdb.com/title/tt2718492/?ref_=fn_al_tt_1" target="_blank">Ida</a></h3>
+              <p class = "film_summary">
+                Anna, a young novitiate nun in 1960s Poland, is on the verge of taking her vows when she discovers a dark family secret dating back to the years of the German occupation.
+              </p>
+              <p class="fim_director">Director: Pawel Pawlikowski</p>
+            </td>
+          </tr>
+          <tr>
+            <td><img class="poster" src="images/poster_the_idiots.jpg">
+            </td>
+            <td class = "cel_summary">
+              <h3><a href="https://www.imdb.com/title/tt0154421/?ref_=fn_al_tt_1" target="_blank">The idiots</a></h3>
+              <p class = "film_summary">
+                The group of people gather at the house in Copenhagen suburb to break all the limitations and to bring out the "inner idiot" in themselves.
+              </p>
+              <p class="fim_director">Director: Lars Von Trier</p>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="card footer">
+        <p>
+          This page has been coded during the FullStack program @LeWagon. That was probably the best experience of my entire life.
+        </p>
+        <p>
+          copyright: nothing of interest here.
+        </p>
+      </section>
+    </div>
   </div>
 </body>
 </html>
